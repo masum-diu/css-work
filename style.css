@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.display-area {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  margin-top: 15%;
+  border-radius: 15px;
+  box-shadow: 5px 10px 50px 5px rgb(92, 91, 91);
+}
+.display-items {
+  font-size: 36px;
+  color: rgb(7, 7, 7);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+}
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  border: 2px solid #000;
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  height: 46px;
+  border-radius: 0 5px 5px 0;
+  border: 2px solid #000;
+  margin-left: -4px;
+  cursor: pointer;
+}
